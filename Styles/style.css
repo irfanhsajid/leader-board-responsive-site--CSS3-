@@ -11,7 +11,7 @@ body{
 /* menu bar style starts  */
 .menu-container{
 background: #562EFF;
-width: 1440px;
+width: 1585px;
 height: 94px;
 display: flex;
 justify-content: space-around;
@@ -36,7 +36,7 @@ height: 51px;
 .profile-part{
     display: flex;
    align-items: center;
-   margin-right: 85px;
+   margin-right: 240px;
 }
 .profile-part a{
     text-decoration: none;
