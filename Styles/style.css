@@ -24,7 +24,7 @@ margin-left: -35px;
     display: flex;
 }
 .logo-part img{
-    width: 40.42px;
+width: 40.42px;
 height: 51px;
 }
 .logo-part h4{
@@ -34,7 +34,8 @@ height: 51px;
 }
 .profile-part{
     display: flex;
-    align-items: center;
+   align-items: center;
+   margin-right: 25px;
 }
 .profile-part a{
     text-decoration: none;
@@ -189,23 +190,24 @@ border-radius: 14.6913px;
     ........................ */
 
     /*....... mobile devices........... */
-    @media only screen and (max-width:680px) {
+    @media only screen and (max-width:687px) {
        .menu-container{
-           width: 700px;
+           width: 680px;
            height: 200px;
            margin: 0;
            display: grid;
-           grid-template-columns: repeat(1,1fr);
-          
+           justify-content: center;
+           align-items: center;
+           grid-template-columns: repeat(1,1fr);   
        }
        .menu-container .logo-part{
-           margin-left: 27%;
+           margin-left: 240px;
            
        }
        .menu-container .profile-part{
-           margin-left: 16%;
+        margin-left: 150px;
        }
-
+       /* top section starts */
         .container-section{
             width: 100%;
         }
@@ -228,7 +230,7 @@ border-radius: 14.6913px;
     }
     /* .................for Tab devices.................. */
 
-    @media only screen and (min-width:688px) and (max-width:992px){
+    @media only screen and (min-width:688px) and (max-width:987px){
 
         .menu-container{
             width: 1000px;
@@ -261,4 +263,19 @@ border-radius: 14.6913px;
         .course{
             width:300px;
         }
+    }
+
+    /* for ipad pro and 14" laptops */
+    @media only screen and (min-width:988px) and (max-width:1288px){
+       .menu-container{
+           display: flex;
+           
+       } 
+       .menu-container .logo-part{
+           margin-left: -150px;
+       }
+       .menu-container .profile-part{
+           margin-right: 200px;
+       }
+
     }
