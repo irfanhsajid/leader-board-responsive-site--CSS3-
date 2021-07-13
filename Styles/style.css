@@ -16,12 +16,13 @@ height: 94px;
 display: flex;
 justify-content: space-around;
 align-items: center;
-margin-left: -35px;
+
 }
 
 
 .logo-part{
     display: flex;
+    margin-right: 65px;
 }
 .logo-part img{
 width: 40.42px;
@@ -35,7 +36,7 @@ height: 51px;
 .profile-part{
     display: flex;
    align-items: center;
-   margin-right: 25px;
+   margin-right: 85px;
 }
 .profile-part a{
     text-decoration: none;
