@@ -202,11 +202,11 @@ border-radius: 14.6913px;
            grid-template-columns: repeat(1,1fr);   
        }
        .menu-container .logo-part{
-           margin-left: 240px;
+           margin-left: 210px;
            
        }
        .menu-container .profile-part{
-        margin-left: 150px;
+        margin-left: 110px;
        }
        /* top section starts */
         .container-section{
@@ -273,10 +273,10 @@ border-radius: 14.6913px;
            
        } 
        .menu-container .logo-part{
-           margin-left: -150px;
+           margin-left: -120px;
        }
        .menu-container .profile-part{
-           margin-right: 200px;
+           margin-right: 150px;
        }
 
     }
