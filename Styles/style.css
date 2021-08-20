@@ -4,6 +4,10 @@
 /*----------------------
     commmon style or utilities
     .................................. */
+html,body{
+    width: 100%;
+    overflow-x: hidden;
+}
 body{
     background-color:#E5E5E5; 
     font-family: 'Poppins', sans-serif;
@@ -11,7 +15,6 @@ body{
 /* menu bar style starts  */
 .menu-container{
 background: #562EFF;
-width: 1585px;
 height: 94px;
 display: flex;
 justify-content: space-around;
@@ -22,8 +25,8 @@ align-items: center;
 
 .logo-part{
     display: flex;
-    margin-right: 65px;
 }
+
 .logo-part img{
 width: 40.42px;
 height: 51px;
@@ -36,7 +39,6 @@ height: 51px;
 .profile-part{
     display: flex;
    align-items: center;
-   margin-right: 240px;
 }
 .profile-part a{
     text-decoration: none;
@@ -73,10 +75,10 @@ font-size: 24px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-row-gap: 30px; 
+    margin-left: 6%;
 }
 .player{
     display: flex;
-    justify-content: center;
     align-items: center;
   
 }
@@ -193,7 +195,6 @@ border-radius: 14.6913px;
     /*....... mobile devices........... */
     @media only screen and (max-width:687px) {
        .menu-container{
-           width: 680px;
            height: 200px;
            margin: 0;
            display: grid;
@@ -202,11 +203,11 @@ border-radius: 14.6913px;
            grid-template-columns: repeat(1,1fr);   
        }
        .menu-container .logo-part{
-           margin-left: 210px;
+          margin: auto;
            
        }
        .menu-container .profile-part{
-        margin-left: 110px;
+        margin: auto;
        }
        /* top section starts */
         .container-section{
@@ -221,11 +222,11 @@ border-radius: 14.6913px;
             flex-direction: column;
         }
         .courses, .blogs{
-            margin-left: 10%;
+            margin-left: 5%;
             margin-bottom: 5%;
         }
         .course{
-            width:300px;
+            width:85%;
         }
         
     }
@@ -233,19 +234,14 @@ border-radius: 14.6913px;
 
     @media only screen and (min-width:688px) and (max-width:987px){
 
-        .menu-container{
-           
+        html,body{
+            width: 100%;
+            overflow-x: hidden;
+        }
+     .menu-container{
             height: 150px;
             display: flex;   
         }
-        .menu-container .logo-part{
-            /* margin-left: -15%; */
-            margin-right: 5%;
-        }
-        .menu-container .profile-part{
-            margin-right: 15%;
-        }
-
         .container-section{
             width: 100%;
         }
@@ -262,7 +258,7 @@ border-radius: 14.6913px;
         }
        
         .course{
-            width:300px;
+            width:85%;
         }
     }
 
@@ -272,11 +268,7 @@ border-radius: 14.6913px;
            display: flex;
            
        } 
-       .menu-container .logo-part{
-           margin-left: -120px;
-       }
-       .menu-container .profile-part{
-           margin-right: 150px;
-       }
-
+       .container-section{
+        width: 100%;
     }
+}
